@@ -1,0 +1,11 @@
+{% extends 'accounts/base.html' %}
+
+{% block content %}
+
+<h1>Testing!!!!!!!!!!</h1>
+
+{% for user in users %}
+    {{ user.username }} | {{ user.email }} <br>
+{% endfor %}
+
+{% endblock %}
